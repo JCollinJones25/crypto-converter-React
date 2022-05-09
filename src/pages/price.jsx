@@ -33,7 +33,7 @@ const Price = (props) => {
     const loaded = () => {
         return (
             <div>
-                <h1>The value of one {coin.asset_id_base} is ${coin.rate} in {coin.asset_id_quote}</h1>
+                <h1> 1 {coin.asset_id_base} = ${coin.rate} {coin.asset_id_quote}</h1>
             </div>
         );
     };

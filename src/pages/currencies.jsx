@@ -13,6 +13,8 @@ const Currencies = (props) => {
         { name: "Zcash", symbol: "ZEC" },
     ];
 
+    // each link component generates an a tag
+
     return (
         <div className='currencies'>
             {currencies.map((coin, idx)=>{
